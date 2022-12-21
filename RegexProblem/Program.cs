@@ -18,8 +18,8 @@ namespace RegexProblem
             //MobileNo Mnum = new MobileNo();
             //Mnum.MobileNumber();
 
-            Password Pass = new Password();
-            Pass.PassValidation();
+            Password Pass1 = new Password();
+            Pass1.PassValidation();
 
         }
     }

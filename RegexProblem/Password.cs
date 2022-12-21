@@ -11,17 +11,17 @@ namespace RegexProblem
     {
         public void PassValidation()
         {
-            Regex password = new ("(?=.*[A-Z])(?=.*[0-9])(?=.*[.,/+_@!#$%&*]{1}){8,}$");
-            Console.WriteLine("Enter your Password: ");
+            Regex password = new ("(?=.*[A-Z])(?=.*[0-9])(?=.*[.,/+_@!#$%&*]{1}).{8,}$");
+            Console.WriteLine("Enter the Password: ");
             string pass = Console.ReadLine();
 
             if (password.IsMatch(pass))
             {
-                Console.WriteLine("The password is valid");
+                Console.WriteLine("The password is Valid");
             }
             else
             {
-                Console.WriteLine("The Password you entered is Invalid");
+                Console.WriteLine("The Password you entered is InValid");
             }
         }
     }
