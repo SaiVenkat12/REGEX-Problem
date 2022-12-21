@@ -22,7 +22,7 @@ namespace RegexProblem
             }
             else
             {
-                Console.WriteLine("The name you entered is Invalid");
+                Console.WriteLine("The Name you entered is Invalid");
             }
         }
         public void LNameValidation()
@@ -37,7 +37,7 @@ namespace RegexProblem
             }
             else
             {
-                Console.WriteLine("The name you entered is Invalid");
+                Console.WriteLine("The Name you entered is Invalid");
             }
         }
     }

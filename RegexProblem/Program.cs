@@ -8,8 +8,12 @@ namespace RegexProblem
             Console.WriteLine("User Registration ");
             //Name FirstName = new Name();
             //FirstName.NameValidation();
-            Name LastName = new Name();
-            LastName.LNameValidation();
+
+            //Name LastName = new Name();
+            //LastName.LNameValidation();
+
+            Email EMail = new Email();
+            EMail.EmailValidation();
         }
     }
 }
