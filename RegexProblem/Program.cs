@@ -6,8 +6,10 @@ namespace RegexProblem
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration ");
-            Name FirstName = new Name();
-            FirstName.NameValidation();
+            //Name FirstName = new Name();
+            //FirstName.NameValidation();
+            Name LastName = new Name();
+            LastName.LNameValidation();
         }
     }
 }

@@ -25,5 +25,20 @@ namespace RegexProblem
                 Console.WriteLine("The name you entered is Invalid");
             }
         }
+        public void LNameValidation()
+        {
+            Regex name = new Regex("^[A-Z]{1}[a-z]{2,}$");
+            Console.WriteLine("Enter LastName: ");
+            string LName = Console.ReadLine();
+
+            if (name.IsMatch(LName))
+            {
+                Console.WriteLine(LName + " :your Last name is valid");
+            }
+            else
+            {
+                Console.WriteLine("The name you entered is Invalid");
+            }
+        }
     }
 }
