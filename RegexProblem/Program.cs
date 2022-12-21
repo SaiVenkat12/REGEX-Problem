@@ -12,8 +12,12 @@ namespace RegexProblem
             //Name LastName = new Name();
             //LastName.LNameValidation();
 
-            Email EMail = new Email();
-            EMail.EmailValidation();
+            //Email EMail = new Email();
+            //EMail.EmailValidation();
+
+            MobileNo Mnum = new MobileNo();
+            Mnum.MobileNumber();
+
         }
     }
 }
