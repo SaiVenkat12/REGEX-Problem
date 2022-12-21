@@ -15,8 +15,11 @@ namespace RegexProblem
             //Email EMail = new Email();
             //EMail.EmailValidation();
 
-            MobileNo Mnum = new MobileNo();
-            Mnum.MobileNumber();
+            //MobileNo Mnum = new MobileNo();
+            //Mnum.MobileNumber();
+
+            Password Pass = new Password();
+            Pass.PassValidation();
 
         }
     }
