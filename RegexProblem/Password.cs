@@ -11,7 +11,7 @@ namespace RegexProblem
     {
         public void PassValidation()
         {
-            Regex password = new ("(?=.*[A-Z])[A-za-z0-9]{8,}$");
+            Regex password = new ("(?=.*[A-Z])(?=.*[0-9])[A-za-z0-9]{8,}$");
             Console.WriteLine("Enter your Password: ");
             string pass = Console.ReadLine();
 
